@@ -19,6 +19,9 @@
         "$": false,
         "Konva": false,
         "swal": false,
-        "coordinateData": false
+        "coordinateData": false,
+        "annotater1": false,
+        "annotater2": false,
+        "annotater3": false
     }
 }
