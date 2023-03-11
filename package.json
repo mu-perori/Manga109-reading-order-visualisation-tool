@@ -1,7 +1,7 @@
 {
-  "name": "Manga109_AnnotationApp",
+  "name": "Manga109-reading-order-visualisation-tool",
   "version": "1.0",
-  "repository": "git@github.com:mu-perori/Manga109_AnnotationApp.git",
+  "repository": "git@github.com:mu-perori/Manga109-reading-order-visualisation-tool.git",
   "author": "mu-perori <mu17perori@gmail.com>",
   "license": "MIT",
   "devDependencies": {
@@ -14,9 +14,9 @@
     "stylelint-config-standard": "^24.0.0"
   },
   "scripts": {
-    "fmt": "prettier --write sigcc version2",
-    "csslint": "stylelint sigcc/*.css version2/*.css",
-    "css-fmt": "stylelint --fix sigcc/*.css version2/*.css",
-    "jslint": "eslint sigcc/*.js version2/*.js"
+    "fmt": "prettier --write version3",
+    "csslint": "stylelint version3/*.css",
+    "css-fmt": "stylelint --fix version3/*.css",
+    "jslint": "eslint version3/*.js"
   }
 }

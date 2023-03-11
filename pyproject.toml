@@ -6,6 +6,6 @@ exclude = '''
   | \.git
   | \.mypy_cache
   | \.venv
-  | sigcc
+  | version3
 )/
 '''

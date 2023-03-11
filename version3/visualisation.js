@@ -171,12 +171,12 @@ const makeBoxObj = (xy, objName, rgb) => {
 		id: xy["id"], //HTML要素でいうところのid
 	};
 	const textDict = {
-		x: (xmin + xmax) / 2 - 17*1.5, //配置場所
-		y: (ymin + ymax) / 2 - 15*1.5, //配置場所
-		width: 35*1.5, //表示される範囲の横幅
-		height: 30*1.5, //表示される範囲の高さ
+		x: (xmin + xmax) / 2 - 17 * 1.5, //配置場所
+		y: (ymin + ymax) / 2 - 15 * 1.5, //配置場所
+		width: 35 * 1.5, //表示される範囲の横幅
+		height: 30 * 1.5, //表示される範囲の高さ
 		text: "88", // 表示する内容（表示するタイミングで内容を変える）
-		fontSize: 30*1.5,
+		fontSize: 30 * 1.5,
 		fontStyle: "bold",
 		align: "center",
 		stroke: "rgba(" + black + ", 0" + ")",
